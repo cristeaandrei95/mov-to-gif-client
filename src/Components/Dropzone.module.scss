@@ -1,0 +1,49 @@
+.root {
+  display: flex;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  @media screen and (min-width: 1080px) {
+    & {
+      padding-right: 2rem;
+      width: 50%;
+    }
+  }
+}
+
+.dropzone {
+  flex: 1;
+  border: 3px dashed var(--neuter-color);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  width: 100%;
+  font-weight: 300;
+  font-size: 2.1rem;
+  padding: 0 1.5rem;
+  text-align: center;
+  margin: 2rem 0 0;
+  color: var(--neuter-color);
+}
+
+.image {
+  width: 100%;
+  padding: 0 6rem;
+  opacity: 0.4;
+}
+
+.text {
+  color: var(--neuter-color);
+  margin-bottom: 2.4rem;
+}
+
+.span {
+  color: var(--secondary-color);
+  text-decoration: underline;
+  cursor: pointer;
+}
