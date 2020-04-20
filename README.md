@@ -1,4 +1,4 @@
-# mov-to-gif-server
+# mov-to-gif-client
 
 ## Scope
 I wanted to build an application that converts my screen recordings by drag'n'drop to gif animations to use for my Github pull requests.
